@@ -1,15 +1,9 @@
 # opencode-plugins
 
-To install dependencies:
+[opencode plugins](https://opencode.ai/docs/plugins/) just for me.
+
+## Installation
 
 ```bash
-bun install
+bun run install.ts
 ```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.21. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
