@@ -7,7 +7,6 @@ export const NotificationPlugin: Plugin = async ({
   directory,
   worktree,
 }) => {
-  console.log("NotificationPlugin initialized!");
   return {
     event: async ({ event }) => {
       // Send notification on session completion
@@ -33,5 +32,5 @@ async function isChildSession(
   const { data: session } = await client.session.get({
     path: { id: sessionId },
   });
-  return session?.parentID !== null;
+  return session?.parentID != null;
 }
